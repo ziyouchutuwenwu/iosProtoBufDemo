@@ -1,9 +1,9 @@
 platform :ios, '8.0'
 
-def requiredPods
+def required_pods
   pod 'ProtocolBuffers'
 end
 
 target 'iosProtoBufDemo' do
-  requiredPods
+  required_pods
 end
