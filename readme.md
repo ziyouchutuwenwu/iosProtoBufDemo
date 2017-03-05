@@ -12,7 +12,6 @@ https://github.com/google/protobuf/releases/download/v2.6.1/protobuf-2.6.1.tar.b
 ./configure --prefix=/Users/`whoami`/Desktop/pb2.6.1
 make
 make install
-
 ```
 
 ### 2. 安装protoc-gen-objc插件
@@ -25,7 +24,7 @@ cd protobuf-objc
 make
 ```
 
-复制src/compiler下的protoc-gen-objc到/Users/`whoami`/Desktop/pb2.6.1/bin目录
+复制src/compiler下的protoc-gen-objc到pb的bin目录
 
 ### 3. 生成oc类
 ```
